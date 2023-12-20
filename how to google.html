@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
-
 <body>
-
 <script>
+  
   // Function to open a Google search result page
   function openGoogleSearch() {
     var searchQuery = 'how to use Google';
     
         var googleSearchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchQuery);
     
-    // Open the Google search result page in a new tab or window
+    // Open Google search result page in new tab
     window.open(googleSearchUrl, '_blank');
   }
 
-  // Call the function when the page loads (you can trigger it in response to a user action)
+  // Call the function
   window.onload = openGoogleSearch;
+
 </script>
 </head>
 </body>
